@@ -38,3 +38,8 @@ def download_data(N):
     for i in range(0, N, CHUNK_SIZE):
         data = get_data(i, i + CHUNK_SIZE)
         write_to_local(data, i // CHUNK_SIZE)
+
+
+def check_data():
+    # check if data is available
+    return data
